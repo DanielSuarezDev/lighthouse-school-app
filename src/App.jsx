@@ -1,8 +1,24 @@
-import { Home } from './Pages/Home/Home';
+import { Suspense } from "react";
+import { BrowserRouter } from "react-router-dom";
+
+import "./app.css"
+import { Router } from "./routes/Router.tsx";
 
 function App() {
+
+  const styles = {
+    padding: 0,
+    margin: 0
+  };
+
   return (
-    <Home />
+    <BrowserRouter>
+    <div style={styles}>
+      <Suspense fallback={<p>Cargando...</p>}>
+        <Router />
+      </Suspense>
+    </div>
+    </BrowserRouter>
   );
 }
 

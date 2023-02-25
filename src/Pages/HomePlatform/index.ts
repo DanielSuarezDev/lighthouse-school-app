@@ -1,0 +1,1 @@
+export {HomePlatform as default} from './HomePlatform';
