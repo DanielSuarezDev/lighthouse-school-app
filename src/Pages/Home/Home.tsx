@@ -7,13 +7,13 @@ export const Home = () => {
     <header className='head'>
         <h1>Home</h1>
     </header>
-      <div clas="Logo">Logo</div>
-      <div class="Estudiante">Estudiante</div>
-      <div class="Maestro">Maestro</div>
-      <div class="Contactos">Contactos</div>
-      <div class="Calendario">Calendario</div>
-      <div class="Inicio">Inicio</div>
-      <div class="Tareas">Tareas</div>
+      <div className="Logo">Logo</div>
+      <div className="Estudiante">Estudiante</div>
+      <div className="Maestro">Maestro</div>
+      <div className="Contactos">Contactos</div>
+      <div className="Calendario">Calendario</div>
+      <div className="Inicio">Inicio</div>
+      <div className="Tareas">Tareas</div>
     </div>
   )
 }
