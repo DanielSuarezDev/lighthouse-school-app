@@ -1,9 +1,44 @@
+
 .head{
-    background-color: #000;
+    
+    background-image:url("../../img/giro1.png");
     color: #fff;
     padding: 10px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Logo{
+    text-size-adjust: 50px;
+    background-image: url(../../img/lhs.png);
+}
+
+.Estudiante{
+    text-decoration: underline;
+    background-color: blue;
+    text-align: center;
+}
+
+.Maestro{
+    text-decoration: underline;
+    background-color: rgb(235, 249, 80);
+    text-align: center;
+}
+
+.Contactos{
+    text-decoration: underline;
+    background-color: rgb(203, 80, 244);
+    text-align: center;
+}
+
+.Calendario{
+    text-decoration: underline;
+    background-color: rgb(113, 80, 244);
+    text-align: center;
 }
